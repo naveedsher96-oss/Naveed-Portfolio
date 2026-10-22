@@ -1,6 +1,6 @@
 # Naveed Ahmed: portfolio
 
-One-page portfolio for Naveed Ahmed, CRM automation specialist (GoHighLevel, Zoho, Bitrix24, HubSpot and more).
+One-page portfolio for Naveed Ahmed, CRM automation specialist (GoHighLevel, Zoho, Bitrix24, HubSpot and more): dark theme, 16 sample automation blueprints, quick wins, FAQ.
 
 - `index.html` is the whole site: no build step, no dependencies.
 - `assets/` holds desktop and mobile screenshots of the page.
