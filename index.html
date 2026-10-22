@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Naveed Ahmed | CRM Automation Specialist</title>
+<meta name="description" content="Naveed Ahmed: CRM automation from A to Z on GoHighLevel, Zoho, Bitrix24, HubSpot and more. Lead capture, follow-ups, booking, pipelines and reporting for coaches, therapists, clinics, agencies and service businesses.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f5f7fa;--card:#ffffff;--ink:#132033;--mute:#5b6878;--line:#e1e6ed;
+  --brand:#1f3a5f;--accent:#2f7de1;--accent-soft:#e8f1fc;--good:#0f8a5f;--warm:#c26a12;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0d1520;--card:#142030;--ink:#e7edf4;--mute:#9aa8b8;--line:#253447;
+    --brand:#4f86c6;--accent:#5aa2ff;--accent-soft:#16304d;--good:#3ccf97;--warm:#f0a24a;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.6 Inter,"Segoe UI",system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:16px}
+nav b{font-weight:800;letter-spacing:-.01em}
+nav .links{display:flex;gap:18px;font-size:14px}
+nav .links a{color:var(--mute)}
+@media (max-width:820px){nav .links{display:none}}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:10px;
+  font-weight:600;font-size:15px;border:1px solid transparent;transition:transform .15s}
+.btn:hover{text-decoration:none;transform:translateY(-1px)}
+.btn.primary{background:var(--accent);color:#fff}
+.btn.ghost{border-color:var(--line);color:var(--ink);background:var(--card)}
+.btn.small{padding:8px 14px;font-size:14px}
+
+header.hero{padding:64px 0 56px}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr}}
+.eyebrow{display:inline-block;font-size:13px;font-weight:600;color:var(--good);
+  background:color-mix(in srgb,var(--good) 12%,transparent);padding:5px 12px;border-radius:99px;margin-bottom:18px}
+h1{font-size:clamp(34px,5.4vw,52px);line-height:1.08;margin:0 0 16px;letter-spacing:-.025em;font-weight:800}
+h1 span{color:var(--accent)}
+.lead{font-size:clamp(17px,2.1vw,19px);color:var(--mute);max-width:620px;margin:0 0 26px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:26px;color:var(--mute);font-size:14px}
+
+/* hero workflow mock */
+.flow{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;
+  box-shadow:0 18px 40px -24px rgba(19,32,51,.35)}
+.flow .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;font-size:13px;color:var(--mute)}
+.flow .top b{color:var(--ink);font-size:14px}
+.live{color:var(--good);font-weight:600}
+.live::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--good);margin-right:6px;vertical-align:1px}
+.node{display:flex;gap:12px;align-items:flex-start;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--bg);font-size:14px}
+.node small{display:block;color:var(--mute);font-size:12.5px}
+.node .tag{flex:none;font-size:11px;font-weight:700;padding:3px 8px;border-radius:6px;background:var(--accent-soft);color:var(--accent);margin-top:2px;min-width:62px;text-align:center}
+.node .tag.t{background:color-mix(in srgb,var(--good) 14%,transparent);color:var(--good)}
+.node .tag.w{background:color-mix(in srgb,var(--warm) 14%,transparent);color:var(--warm)}
+.arrow{height:14px;margin-left:42px;border-left:2px dashed var(--line)}
+
+section{padding:60px 0;border-top:1px solid var(--line)}
+h2{font-size:30px;margin:0 0 8px;letter-spacing:-.02em}
+.sub{color:var(--mute);margin:0 0 30px;max-width:680px}
+
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+@media (max-width:820px){.stats{grid-template-columns:repeat(2,1fr)}}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+.stat b{display:block;font-size:30px;font-weight:800;letter-spacing:-.02em;color:var(--accent)}
+.stat span{font-size:14px;color:var(--mute)}
+
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.grid.two{grid-template-columns:repeat(2,1fr)}
+.grid.four{grid-template-columns:repeat(4,1fr)}
+@media (max-width:900px){.grid,.grid.four{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.grid,.grid.two,.grid.four{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px}
+.card h3{margin:0 0 8px;font-size:18px}
+.card p{margin:0 0 12px;color:var(--mute);font-size:15px}
+.card ul{margin:0;padding-left:18px;font-size:14.5px}
+.card li{margin:4px 0}
+.icon{width:44px;height:44px;border-radius:11px;background:var(--accent-soft);color:var(--accent);
+  display:grid;place-items:center;font-weight:800;margin-bottom:14px;font-size:14px}
+
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:8px 16px;font-size:14.5px;font-weight:500}
+.more{margin-top:22px}
+.more p{color:var(--mute);font-size:14px;margin:0 0 10px}
+
+/* process */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;counter-reset:s}
+@media (max-width:900px){.steps{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.steps{grid-template-columns:1fr}}
+.step{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 22px 20px;position:relative}
+.step::before{counter-increment:s;content:counter(s,upper-alpha);position:absolute;top:18px;right:20px;
+  font-size:28px;font-weight:800;color:var(--accent-soft)}
+@media (prefers-color-scheme:dark){.step::before{color:#24456b}}
+.step h3{margin:0 0 6px;font-size:17px}
+.step p{margin:0;color:var(--mute);font-size:14.5px}
+
+/* sample builds */
+.note{display:inline-block;font-size:13.5px;color:var(--mute);background:var(--card);border:1px dashed var(--line);
+  border-radius:10px;padding:8px 14px;margin:-8px 0 26px}
+.build{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px;display:flex;flex-direction:column}
+.build .head{display:flex;gap:14px;align-items:center;margin-bottom:12px}
+.build .head .icon{margin:0}
+.build h3{margin:0;font-size:19px}
+.build .kicker{font-size:13px;color:var(--mute)}
+.build .prob{font-size:15px;color:var(--mute);margin:0 0 14px}
+.build .prob b{color:var(--ink)}
+.build ol{margin:0 0 16px;padding:0;list-style:none;counter-reset:w}
+.build ol li{position:relative;padding:7px 0 7px 34px;font-size:14.5px;border-bottom:1px solid var(--line)}
+.build ol li:last-child{border-bottom:0}
+.build ol li::before{counter-increment:w;content:counter(w);position:absolute;left:0;top:7px;width:22px;height:22px;
+  border-radius:50%;background:var(--accent-soft);color:var(--accent);font-size:12px;font-weight:700;display:grid;place-items:center}
+.build .foot{margin-top:auto;display:grid;gap:10px}
+.build .tools{display:flex;flex-wrap:wrap;gap:6px}
+.build .tools span{font-size:12.5px;font-weight:600;padding:4px 10px;border-radius:99px;background:var(--bg);border:1px solid var(--line)}
+.build .out{font-size:14.5px;background:color-mix(in srgb,var(--good) 10%,transparent);border-radius:10px;padding:10px 14px}
+.build .out b{color:var(--good)}
+
+.timeline{position:relative;margin-left:8px;padding-left:28px;border-left:2px solid var(--line)}
+.job{position:relative;margin-bottom:30px}
+.job:last-child{margin-bottom:0}
+.job::before{content:"";position:absolute;left:-36px;top:6px;width:12px;height:12px;border-radius:50%;
+  background:var(--card);border:3px solid var(--accent)}
+.job h3{margin:0;font-size:18px}
+.job .co{font-weight:600;color:var(--ink)}
+.job .when{color:var(--mute);font-size:14px;margin:2px 0 8px}
+.job p,.job ul{margin:0;color:var(--mute);font-size:15px}
+.job ul{padding-left:18px}
+.job li{margin:3px 0}
+.earlier{margin-top:26px;color:var(--mute);font-size:15px}
+
+.contact{background:var(--brand);color:#fff;border-radius:18px;padding:44px 32px;text-align:center}
+.contact h2{color:#fff}
+.contact p{color:rgba(255,255,255,.82);max-width:580px;margin:0 auto 24px}
+.contact .btn.ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.35)}
+.contact .btn.primary{background:#fff;color:var(--brand)}
+@media (prefers-color-scheme:dark){.contact{background:#1a3352}}
+footer{padding:28px 0 40px;color:var(--mute);font-size:13px;text-align:center}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <b>Naveed Ahmed</b>
+  <div class="links"><a href="#platforms">Platforms</a><a href="#process">A to Z</a><a href="#builds">Sample builds</a><a href="#services">Services</a><a href="#experience">Experience</a></div>
+  <a class="btn primary small" href="mailto:naveedsher96@gmail.com?subject=CRM%20automation">Get in touch</a>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <div>
+    <span class="eyebrow">CRM automation specialist · available for remote projects</span>
+    <h1>CRM automation, <span>built from A to Z</span></h1>
+    <p class="lead">I'm Naveed Ahmed. I set up GoHighLevel, Zoho, Bitrix24, HubSpot and other CRMs so every lead
+      gets captured, followed up, booked and tracked automatically. You get a system that works while you work,
+      built by someone who has carried a sales quota since 2015.</p>
+    <div class="cta">
+      <a class="btn primary" href="mailto:naveedsher96@gmail.com?subject=CRM%20automation">Book a free CRM review</a>
+      <a class="btn ghost" href="#builds">See sample builds</a>
+    </div>
+    <div class="meta">
+      <span>Islamabad, Pakistan (GMT+5)</span>
+      <span>Overlaps EU and US-East hours</span>
+      <span>BS Computer Science, Preston University</span>
+    </div>
+  </div>
+  <div class="flow" aria-label="Example automation workflow">
+    <div class="top"><b>New lead follow-up</b><span class="live">Live</span></div>
+    <div class="node"><span class="tag t">TRIGGER</span><div>Form submitted on website or Facebook ad<small>Contact created, source tagged</small></div></div>
+    <div class="arrow"></div>
+    <div class="node"><span class="tag">SMS + EMAIL</span><div>Instant reply with booking link<small>Sent within 60 seconds</small></div></div>
+    <div class="arrow"></div>
+    <div class="node"><span class="tag w">WAIT</span><div>No booking after 1 day?<small>Branch: booked / not booked</small></div></div>
+    <div class="arrow"></div>
+    <div class="node"><span class="tag">FOLLOW-UP</span><div>3-touch nurture over 7 days<small>Stops the moment they reply</small></div></div>
+    <div class="arrow"></div>
+    <div class="node"><span class="tag t">PIPELINE</span><div>Moved to "Call booked", owner notified<small>Shows up in the weekly report</small></div></div>
+  </div>
+</div></header>
+
+<section id="results"><div class="wrap">
+  <div class="stats">
+    <div class="stat"><b>10+ yrs</b><span>in B2B sales, outreach and CRM work</span></div>
+    <div class="stat"><b>6+ CRMs</b><span>GoHighLevel, Zoho, Bitrix24, HubSpot, Salesforce and more</span></div>
+    <div class="stat"><b>550%</b><span>of monthly quota at Zones, LLC</span></div>
+    <div class="stat"><b>$50,015</b><span>in sales closed in 30 days</span></div>
+  </div>
+</div></section>
+
+<section id="platforms"><div class="wrap">
+  <h2>Platforms I automate</h2>
+  <p class="sub">I pick the platform that fits your business and budget, or make the one you already pay for actually work.</p>
+  <div class="grid four">
+    <div class="card"><div class="icon">GHL</div><h3>GoHighLevel</h3>
+      <ul><li>Workflows, pipelines and calendars</li><li>Funnels, forms and surveys</li><li>Missed-call text-back, reviews</li><li>Snapshots for agencies</li></ul></div>
+    <div class="card"><div class="icon">ZO</div><h3>Zoho CRM</h3>
+      <ul><li>Workflow rules and Blueprints</li><li>Lead assignment and scoring</li><li>Zoho Forms, Bookings, Campaigns</li><li>Custom modules and reports</li></ul></div>
+    <div class="card"><div class="icon">B24</div><h3>Bitrix24</h3>
+      <ul><li>Sales pipelines and smart processes</li><li>Automation rules and triggers</li><li>Open channels: chat, WhatsApp, forms</li><li>Tasks and team routing</li></ul></div>
+    <div class="card"><div class="icon">HS</div><h3>HubSpot</h3>
+      <ul><li>Deal pipelines and properties</li><li>Workflows and email sequences</li><li>Meetings links and forms</li><li>Dashboards and attribution</li></ul></div>
+  </div>
+  <div class="more">
+    <p>And more, plus the tools that connect them:</p>
+    <div class="chips">
+      <span class="chip">Salesforce</span><span class="chip">Pipedrive</span><span class="chip">ActiveCampaign</span><span class="chip">Keap</span>
+      <span class="chip">Zapier</span><span class="chip">Make</span><span class="chip">Twilio / LC Phone</span><span class="chip">Calendly</span>
+      <span class="chip">Stripe</span><span class="chip">Google Workspace</span><span class="chip">WhatsApp</span><span class="chip">Facebook Lead Ads</span>
+    </div>
+  </div>
+</div></section>
+
+<section id="process"><div class="wrap">
+  <h2>CRM automation from A to Z</h2>
+  <p class="sub">One person owns it end to end, so nothing gets lost between "strategy" and "setup".</p>
+  <div class="steps">
+    <div class="step"><h3>Audit</h3><p>A short call and a look inside your current tools. Where do leads come from, where do they get stuck, and what do you do by hand every week?</p></div>
+    <div class="step"><h3>Map</h3><p>A simple diagram of your customer journey: stages, triggers, messages and who owns each step. You approve it before I build.</p></div>
+    <div class="step"><h3>Build</h3><p>Pipelines, custom fields, forms, calendars, workflows, email and SMS templates, written in your voice.</p></div>
+    <div class="step"><h3>Connect</h3><p>Website, ads, phone, payments and calendars wired in, plus your old contacts imported and cleaned.</p></div>
+    <div class="step"><h3>Test</h3><p>Every path run end to end with test contacts, including the edge cases: no-shows, replies, double bookings.</p></div>
+    <div class="step"><h3>Hand over &amp; support</h3><p>A recorded walkthrough, a one-page guide for your team, and follow-up support while you settle in.</p></div>
+  </div>
+</div></section>
+
+<section id="builds"><div class="wrap">
+  <h2>Sample automation builds</h2>
+  <p class="sub">Blueprints of systems I set up for different kinds of businesses. Each one is adjusted to the client's offer, tools and tone.</p>
+  <span class="note">These are sample builds that show the scope of work, not case studies of named clients.</span>
+  <div class="grid two">
+
+    <div class="build">
+      <div class="head"><div class="icon">CO</div><div><h3>Coaches &amp; consultants</h3><div class="kicker">Discovery calls to paid programs</div></div></div>
+      <p class="prob"><b>Problem:</b> leads from Instagram and webinars go cold, discovery calls no-show, and payments and onboarding are handled by hand.</p>
+      <ol>
+        <li>Lead magnet or webinar form tags the contact by source and interest</li>
+        <li>Instant email and SMS with the free resource and a booking link</li>
+        <li>Discovery call reminders at 24 hours and 1 hour, with a no-show rebooking sequence</li>
+        <li>After the call, the coach picks an outcome and the right proposal or nurture path starts</li>
+        <li>Stripe payment triggers the welcome email, client portal access and session scheduling</li>
+        <li>Mid-program check-in, testimonial request at the end, and a renewal offer</li>
+      </ol>
+      <div class="foot">
+        <div class="tools"><span>GoHighLevel</span><span>Stripe</span><span>Zoom</span><span>Memberships</span></div>
+        <div class="out"><b>Goal:</b> more booked calls from the same traffic, fewer no-shows, and onboarding that runs itself.</div>
+      </div>
+    </div>
+
+    <div class="build">
+      <div class="head"><div class="icon">TH</div><div><h3>Therapists &amp; counselors</h3><div class="kicker">Private practice intake</div></div></div>
+      <p class="prob"><b>Problem:</b> inquiries come in after hours, intake paperwork is chased by email, and missed sessions are lost income.</p>
+      <ol>
+        <li>Website inquiry or missed call gets a warm, immediate reply with next steps</li>
+        <li>Consultation booking with insurance or self-pay questions asked up front</li>
+        <li>Intake forms and consent sent automatically, with reminders until they're done</li>
+        <li>Session reminders by SMS and email, plus a cancellation link that reopens the slot</li>
+        <li>Recurring session scheduling and a gentle re-engagement message after a gap</li>
+        <li>Clinical notes stay in the practice's own system, never in marketing messages</li>
+      </ol>
+      <div class="foot">
+        <div class="tools"><span>GoHighLevel or Zoho</span><span>Secure forms</span><span>Calendar</span><span>SMS</span></div>
+        <div class="out"><b>Goal:</b> no lost inquiries, intake finished before the first session, and fewer late cancellations.</div>
+      </div>
+    </div>
+
+    <div class="build">
+      <div class="head"><div class="icon">RE</div><div><h3>Real estate teams</h3><div class="kicker">Speed to lead and long nurture</div></div></div>
+      <p class="prob"><b>Problem:</b> portal and ad leads wait hours for a call, and buyers who aren't ready yet are forgotten.</p>
+      <ol>
+        <li>Leads from Zillow, Facebook and the website land in one pipeline</li>
+        <li>Round-robin assignment with an instant text, and the agent is alerted</li>
+        <li>If nobody calls within 5 minutes, the lead is reassigned</li>
+        <li>Buyer and seller tracks with property alerts and market updates</li>
+        <li>Long-term nurture for 6 to 12 month buyers, with past clients asked for referrals</li>
+      </ol>
+      <div class="foot">
+        <div class="tools"><span>Bitrix24 or GHL</span><span>Facebook Lead Ads</span><span>Round-robin</span></div>
+        <div class="out"><b>Goal:</b> every lead contacted in minutes and every agent's pipeline visible in one place.</div>
+      </div>
+    </div>
+
+    <div class="build">
+      <div class="head"><div class="icon">MS</div><div><h3>Dental, med spa &amp; clinics</h3><div class="kicker">Bookings, recalls and reviews</div></div></div>
+      <p class="prob"><b>Problem:</b> the front desk misses calls, patients forget recalls, and happy patients never leave reviews.</p>
+      <ol>
+        <li>Missed-call text-back and a website chat that books straight into the calendar</li>
+        <li>New patient forms sent before the visit</li>
+        <li>Recall reminders at 6 months, or treatment-specific follow-ups for spa services</li>
+        <li>Post-visit message asking for a Google review, with unhappy replies routed to the manager</li>
+        <li>Reactivation campaign for patients not seen in 12 months</li>
+      </ol>
+      <div class="foot">
+        <div class="tools"><span>GoHighLevel</span><span>Reputation</span><span>Chat widget</span><span>SMS</span></div>
+        <div class="out"><b>Goal:</b> fuller schedules from existing patients and a steady stream of new reviews.</div>
+      </div>
+    </div>
+
+    <div class="build">
+      <div class="head"><div class="icon">FIT</div><div><h3>Gyms &amp; fitness studios</h3><div class="kicker">Trial to membership</div></div></div>
+      <p class="prob"><b>Problem:</b> free-trial signups don't show up or don't convert, and members quietly cancel.</p>
+      <ol>
+        <li>Trial pass signup triggers a welcome message and class booking</li>
+        <li>Reminder before the first visit and a check-in right after it</li>
+        <li>Day 5 membership offer with a deadline, then a follow-up from a coach</li>
+        <li>Attendance drop alert sends a "we miss you" message and flags the coach</li>
+        <li>Birthday and milestone messages, plus a member referral reward</li>
+      </ol>
+      <div class="foot">
+        <div class="tools"><span>GHL or HubSpot</span><span>Stripe</span><span>Calendar</span></div>
+        <div class="out"><b>Goal:</b> more trials turning into members and fewer silent cancellations.</div>
+      </div>
+    </div>
+
+    <div class="build">
+      <div class="head"><div class="icon">B2B</div><div><h3>Agencies &amp; B2B services</h3><div class="kicker">Outbound to signed contract</div></div></div>
+      <p class="prob"><b>Problem:</b> outreach lives in spreadsheets, proposals get no follow-up, and nobody knows the real pipeline value.</p>
+      <ol>
+        <li>Prospect lists imported, enriched and assigned to reps</li>
+        <li>Multi-step email and call sequence with tasks created for each rep</li>
+        <li>Replies and booked meetings move the deal stage automatically</li>
+        <li>Proposal sent starts a follow-up timer and alerts the owner if it goes quiet</li>
+        <li>Won deals trigger client onboarding tasks; weekly pipeline report emailed to leadership</li>
+      </ol>
+      <div class="foot">
+        <div class="tools"><span>Zoho CRM</span><span>HubSpot</span><span>Zoho Campaigns</span><span>Make</span></div>
+        <div class="out"><b>Goal:</b> a pipeline you can trust and follow-ups that happen without reminders.</div>
+      </div>
+    </div>
+
+  </div>
+</div></section>
+
+<section id="services"><div class="wrap">
+  <h2>Other ways I can help</h2>
+  <p class="sub">Hourly or per project, with no long contracts. Happy to start with one small task so you can see the result first.</p>
+  <div class="grid">
+    <div class="card"><div class="icon">FIX</div><h3>CRM cleanup &amp; rescue</h3>
+      <p>For a CRM that was half set up and abandoned.</p>
+      <ul><li>Duplicate and dead contacts cleaned</li><li>Broken workflows fixed or removed</li><li>Pipelines simplified to stages that mean something</li></ul></div>
+    <div class="card"><div class="icon">MIG</div><h3>CRM migration</h3>
+      <p>Moving from spreadsheets or one CRM to another.</p>
+      <ul><li>Contacts, deals and notes mapped and imported</li><li>Automations rebuilt on the new platform</li><li>Team trained on day one</li></ul></div>
+    <div class="card"><div class="icon">BD</div><h3>Sales &amp; appointment setting</h3>
+      <p>Outbound that books real conversations.</p>
+      <ul><li>Prospect research and targeted lists</li><li>Cold calling, email outreach, follow-ups</li><li>Lead qualification and booking</li></ul></div>
+    <div class="card"><div class="icon">OPS</div><h3>Sales operations &amp; reporting</h3>
+      <p>The numbers that tell you what's working.</p>
+      <ul><li>Dashboards for leads, bookings and revenue</li><li>Source and campaign tracking</li><li>Weekly report sent automatically</li></ul></div>
+    <div class="card"><div class="icon">AM</div><h3>Account &amp; channel management</h3>
+      <p>Keeping clients and partners growing after the first sale.</p>
+      <ul><li>Key-account and partner relationships</li><li>Renewals, expansions and upsells</li><li>Partner promos and collateral</li></ul></div>
+    <div class="card"><div class="icon">VA</div><h3>CRM virtual assistant</h3>
+      <p>Ongoing help once the system is live.</p>
+      <ul><li>Data entry and pipeline updates</li><li>Inbox, calendar and admin support</li><li>Small workflow changes as you grow</li></ul></div>
+  </div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+  <h2>Experience</h2>
+  <p class="sub">Remote sales and CRM roles with US companies, plus team leadership in Pakistan. Most recently I built automated outreach and follow-up workflows in Zoho that replaced hours of manual pipeline updates each week.</p>
+  <div class="timeline">
+    <div class="job"><h3>Senior Sales &amp; Outreach Manager</h3>
+      <div class="when"><span class="co">Alexander Financial Solutions</span> · Jun 2026 to present · Freehold, New Jersey (remote)</div>
+      <ul><li>Lead high-volume outbound prospecting: cold calls, email outreach and follow-ups</li>
+        <li>Research prospects, qualify leads and schedule meetings for the sales team</li>
+        <li>Keep outreach, pipeline and performance data accurate in the CRM</li></ul></div>
+    <div class="job"><h3>Sales Manager</h3>
+      <div class="when"><span class="co">Ebonized Chill</span> · Oct 2024 to Dec 2024 · Chicago, Illinois (remote)</div>
+      <p>Led and coached the sales team, set sales strategy, and managed key client accounts.</p></div>
+    <div class="job"><h3>Senior Sales Manager</h3>
+      <div class="when"><span class="co">Automarkt Ninja</span> · Jul 2023 to present · Richmond, Texas (remote)</div>
+      <ul><li>Build and run the sales strategy and lead the sales team</li>
+        <li>Negotiate and close high-value deals with long-term clients</li>
+        <li>Track sales metrics and turn them into team improvements</li></ul></div>
+    <div class="job"><h3>Business Development Manager</h3>
+      <div class="when"><span class="co">StaticTek</span> · Mar 2023 to Nov 2024 · Oregon (remote)</div>
+      <p>CRM development, wholesale customer plans, Alibaba stores, Veeqo inventory management, and Amazon growth across the USA, Canada, Mexico and the UK.</p></div>
+    <div class="job"><h3>Business Development Manager</h3>
+      <div class="when"><span class="co">Beyond Creative</span> · Jan 2021 to Apr 2023 · Florida (remote)</div>
+      <p>Grew channel partners, led partner managers and account coordinators, and refocused target markets to raise win rates.</p></div>
+    <div class="job"><h3>Channel Account Manager</h3>
+      <div class="when"><span class="co">QuickStart Inc.</span> · Jul 2020 to Jan 2021</div>
+      <p>Built acquisition strategies for Microsoft, Cisco and other technology learning partners.</p></div>
+    <div class="job"><h3>Inside Sales Account Manager</h3>
+      <div class="when"><span class="co">Zones, LLC</span> · Jul 2018 to Jul 2020 · United States (remote)</div>
+      <ul><li>Achieved 550% of monthly quota and grew sales to $50,015 in 30 days</li>
+        <li>Increased sales by 150% running the full cycle, from first lead to close</li>
+        <li>Secured high-value accounts through consultative selling</li></ul></div>
+    <div class="job"><h3>Project Manager &amp; Team Lead</h3>
+      <div class="when"><span class="co">Insight Telemarketing</span> · Feb 2016 to present · Pakistan</div>
+      <p>Lead and support call-center sales reps through every step of the process.</p></div>
+  </div>
+  <p class="earlier">Earlier: Account Executive at Admate Group (2018), Client Relationship Manager at MA Services (2016–2017), Senior Sales Representative at CABCALL International (2015–2016).</p>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <div class="contact">
+    <h2>Let's automate your follow-up</h2>
+    <p>Tell me which CRM you use (or none yet) and where leads are slipping. I'll reply with a short plan for your business, free and with no obligation.</p>
+    <div class="cta" style="justify-content:center">
+      <a class="btn primary" href="mailto:naveedsher96@gmail.com?subject=CRM%20automation">naveedsher96@gmail.com</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/naveed-ahmed-0b08a0aa/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+    </div>
+  </div>
+</div></section>
+
+<footer>© 2026 Naveed Ahmed · CRM automation specialist · Islamabad, Pakistan · Remote worldwide</footer>
+</body>
+</html>
